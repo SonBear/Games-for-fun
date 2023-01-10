@@ -38,7 +38,7 @@ void start()
     string jumbledW;
     getRandomPick(&THEWORD, &THEHINT);
     jumbledW = jumbledWord(THEWORD);
-    cout << "WELCOME TO \"GUESS THE WORD\", PLAYER" << endl;
+    cout << "WELCOME TO \"GUESS THE WORD\", GAME_PLAYER" << endl;
 
     bool exit = false;
     while (answer != THEWORD && !exit)
